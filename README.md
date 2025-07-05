@@ -18,7 +18,7 @@ A modern, full-stack application to track and manage your anime watchlist with d
 - **.env**
   Stores your database connection string and port configuration.
 
-- **How it works:**
+**How it works:**
 
 - The **model** defines the anime data structure.
 - The **routes** define how to interact with the watchlist via HTTP requests (REST API).
@@ -37,7 +37,8 @@ A modern, full-stack application to track and manage your anime watchlist with d
 
 - **app.js**
   All interactive logic: search anime, add to watchlist, update status, view details, and theme toggle.
-  **How it works**
+
+**How it works**
 
 - The frontend is what users see and interact with.
 - It gets anime data from Jikan API for searches.
